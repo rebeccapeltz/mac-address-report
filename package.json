@@ -1,0 +1,11 @@
+{
+  "name": "mac-address-report",
+  "version": "1.0.0",
+  "description": "report on who's using mac address",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Becky Peltz",
+  "license": "ISC"
+}
