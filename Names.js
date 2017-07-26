@@ -2,7 +2,7 @@ module.exports = class Names {
 
     constructor() {
         this._listCollection = [];
-        this._mapCollection = {}; //extra credit
+        this._mapCollection = {}; 
     }
 
     add(item) {
@@ -11,7 +11,7 @@ module.exports = class Names {
            console.log(`User with name ${item.lastName} already exists`);
         } else {
             this._listCollection.push(item);
-            this._mapCollection[item.lastName] = item;//extra credit
+            this._mapCollection[item.lastName] = item;
         }
 
     }
@@ -19,12 +19,12 @@ module.exports = class Names {
         return this._listCollection;
     }
     asMap() {
-        return this._mapCollection;//extra credit
+        return this._mapCollection;
     }
     get keys() {
-        return Object.keys(this._mapCollection);;//extra credit
+        return Object.keys(this._mapCollection);
     }
-     getUserByLastName(lastName){  //extra credit
+     getUserByLastName(lastName){  
         return this._mapCollection[lastName]; 
     }
 
