@@ -31,9 +31,6 @@ module.exports = class Name {
         return this._lastName;
     }
 
-
-
-
     toString() {
         return `${this.firstName} ${this.lastName}`;
     }
