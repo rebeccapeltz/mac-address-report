@@ -31,3 +31,4 @@ names.asList().forEach(name => {
 
 console.log("User by name 'Washington':", `${names.getUserByLastName('Washington').toString()}`);
 
+names.add(new Name({"name":"Martha Washington"}));

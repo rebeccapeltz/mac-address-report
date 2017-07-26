@@ -7,8 +7,8 @@ module.exports = class Names {
 
     add(item) {
         //check if already added  to keep user unique
-        if (this.keys.indexOf(item.name) > -1) {
-           console.log(`User with name ${item.name} already exists`);
+        if (this.keys.indexOf(item.lastName) > -1) {
+           console.log(`User with name ${item.lastName} already exists`);
         } else {
             this._listCollection.push(item);
             this._mapCollection[item.lastName] = item;//extra credit
