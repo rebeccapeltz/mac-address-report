@@ -10,9 +10,10 @@ module.exports = class Name {
         let name = fullName.split(' ');
         if (name.length !== 2 || name[1].length === 0) {
             console.log(`Expect format <firstname> <lastname> not ${fullName}`);
+        } else {
+            this.firstName = name[0];
+            this.lastName = name[1];
         }
-        this.firstName = name[0];
-        this.lastName = name[1];
     }
 
     set firstName(firstName) {
